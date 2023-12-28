@@ -113,17 +113,21 @@ function PrizeList() {
           Apply Filters
         </button>
       </div>
-
-      <div className="mb-8 bg-green-200 shadow-md px-4 py-4 md:w-1/2 rounded-lg">
-        <h2 className="text-2xl font-bold mb-2">Multiple Winners 🎉</h2>
-        <ul className="">
-          {multipleWinners.map((winner) => (
-            <li className="border border-black p-3" key={winner}>
-              {winner}
-            </li>
-          ))}
-        </ul>
-      </div>
+     
+        <div className=" mb-8 bg-green-200 shadow-md p-4 md:w-1/2 rounded-lg">
+          <div>
+            <h2 className="text-2xl font-bold mb-2">Multiple Winners 🎉</h2>
+            <ul className="">
+              {multipleWinners.map((winner) => (
+                <li className="border border-black p-3" key={winner}>
+                  {winner}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+       
+ 
 
       <table className="table-auto w-full">
         <thead>
