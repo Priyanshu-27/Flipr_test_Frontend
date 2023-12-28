@@ -21,12 +21,13 @@ body {
     display: flex;
   }
 
-  .blinder {
-    background-color: #1F2937;
-    height: 100vh;
-    flex: 1;
-    transform-origin: top;
-  }
+.blinder {
+  background: linear-gradient(to bottom, rgb(65, 172, 65), #ffffff);
+  /* Replace #ffffff with your desired end color */
+  height: 100vh;
+  flex: 1;
+  transform-origin: top;
+}
 
   .svg {
     position: absolute;
